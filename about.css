@@ -1,0 +1,71 @@
+.bg-dark
+{
+    background-color: #04204e !important;
+}
+
+.navbar-dark .navbar-nav .nav-link
+{
+    font-weight: 700;
+    font-size:14px;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-item
+{
+    margin:0 15px;
+}
+
+body
+{
+    margin: 0px;
+    padding:0px;
+    background-color: #00264d;
+}
+
+.about_header
+{
+    color:#99ccff;
+    font-weight: 600;
+    text-shadow: 4px 4px 4px #aaa;
+    font-family:verdana
+}
+
+.about_text
+{
+    color:white;
+    font-size: 17px;
+    font-family:verdana;
+}
+
+#about
+{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.about_img
+{
+    position:relative;
+}
+
+.about_img:before
+{
+    position:absolute;
+    content:'';
+    right: -2px;
+    top:20px;
+    border: 10px solid rgb(255, 230, 230, 0.5);
+    width: 90%;
+    height: 100%;
+}
+
+.about_img img
+{
+    width:90%;
+    height: 100%;
+}
+
+#block
+{
+    margin-top: 7%;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="index.css" rel="stylesheet">
+        <title>My Webpage</title>
+        <script>
+            function relocate()
+            {
+                window.location.replace("contact.html");
+            }
+        </script>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="ml-auto">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="skills.html">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+            </div>
+        </nav>
+        </header>
+
+            <!--===== HOME =====-->
+            <section class="home_section" id="home">
+                <div class="row">
+                    <div id="home_intro" class="col-lg-6">
+                        <h1 class="name"> Hi, I'm<span style="color:#99ccff;  font-weight: 600; text-shadow: 4px 4px 4px #aaa;"> Cindy Gu</span><br></h1>
+                        <p class="des">A first year Business Administration and <br>Computer Science Double Degree student</p>
+
+                        <div class="button_cont"><button onclick="relocate()">Contact Me</button></div>
+                    </div>
+
+                    <div id="home_img" class="col-lg-4">
+                        <img src="pfp.png" alt="">
+                    </div>
+                </div>
+            </section>
+    </body>
+</html>
+
